@@ -36,22 +36,20 @@ h1 {
   margin-bottom: 2rem;
 }
 
-/* Style dasar untuk input */
 .form-content input {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc; /* Warna border awal */
-  border-radius: 4px; /* Menambahkan sedikit lengkungan pada sudut */
+  border: 1px solid #ccc;
+  border-radius: 4px;
   font-size: 14px;
-  transition: border-color 0.3s ease; /* Menambahkan transisi untuk border */
+  transition: border-color 0.3s ease;
 }
 
-/* Mengubah warna border saat input difokuskan */
+
 .form-content input:focus {
-  /* border-color: #1a73e8; Warna biru saat input aktif */
-  border-color: #87cefa;
-  outline: none; /* Menghapus outline default */
-  box-shadow: 0 0 5px rgba(26, 115, 232, 0.3); /* Menambahkan efek cahaya biru */
+  border-color: #2375a8;
+  outline: none; 
+  box-shadow: 0 0 5px rgba(26, 115, 232, 0.3);
 }
 
 
@@ -81,6 +79,7 @@ a {
 
 a:hover {
   text-decoration: underline;
+  background-color: #c4d7f9;
 }
 
 button.submit {
@@ -96,7 +95,7 @@ button.submit {
 }
 
 button.submit:hover {
-  background-color: #2568cc;
+  background-color: #1154b7;
 }
 
 .divider {
